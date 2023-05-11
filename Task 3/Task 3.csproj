@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Task_3</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Technical Test Data.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Technical Test Data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
